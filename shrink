@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo pishrink.sh -avd $1
