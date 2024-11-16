@@ -5,7 +5,8 @@ The purpose of this repository is:
 
 Instructions:
 1. Change to the svxshrink directory
-2. Run install-pishrink.sh
+2. run chmod +x install-pishrink.sh to make the script executable
+3. Run install-pishrink.sh
 
 Once this has completed, you can shrink a raspberry pi image file by typing: shrink [filename]
 If you wish that the image file be compressed as well, add the -Z switch for xz format or -z for gzip format. 
