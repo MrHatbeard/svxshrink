@@ -10,3 +10,6 @@ Instructions:
 
 Once this has completed, you can shrink a raspberry pi image file by typing: shrink [filename]
 If you wish that the image file be compressed as well, add the -Z switch for xz format or -z for gzip format. 
+If you wish to have a log file recorded, add a d switch.
+
+Multiple switches can be combined, e.g. 'shrink -zd imagefile.img' will cause the program to shrink imagefile.img, then compress it using xz and also record a log file. 
